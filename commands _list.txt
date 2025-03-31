@@ -1,0 +1,34 @@
+# Go to backend
+cd backend
+
+# initiate project
+npm init -y
+# this will add package.json to project.
+
+# inside package.json add new line with type of module
+"type": "module"
+
+# add express
+npm i express nodemon
+
+express is used as framework
+
+in package.json add inside scripts
+
+"start": "node index.js",
+"dev": "nodemon index.js",
+
+# Create inside backend index.js
+
+# Create for the port another file config.js
+
+# Run npm run dev to start project in our selected port
+npm run dev
+
+# Check node.js version
+node -v
+
+# To get resoueces with http we create app.get(); on index.js
+# We add the route and a callback function to handle the request.
+
+# For the database we use an online mongo db free db.
