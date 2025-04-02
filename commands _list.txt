@@ -32,3 +32,27 @@ node -v
 # We add the route and a callback function to handle the request.
 
 # For the database we use an online mongo db free db.
+npm i mongoose
+
+# Inside backend, create folder models
+# Create bookModel.js
+
+# We need to handle our CORS policy
+npm i cors
+
+# To make a new React project, we will use vite
+# Go back to root
+cd ..
+npm create vite@latest
+y
+# For project name
+frontend
+# Then select React
+# Then select Javascript
+
+# Go to frontend
+cd frontend
+# install all dependencies from node with npm i
+npm i
+
+# Install tailwind from site for vite
