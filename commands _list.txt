@@ -55,4 +55,14 @@ cd frontend
 # install all dependencies from node with npm i
 npm i
 
-# Install tailwind from site for vite
+# Install tailwind from site for vite https://tailwindcss.com/docs/installation/using-vite
+
+npm install tailwindcss @tailwindcss/vite
+
+npm i react-router-dom
+
+npm i axios react-icons
+
+# Go back to backend
+cd ..
+cd backend
