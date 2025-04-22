@@ -27,12 +27,12 @@ const ShowBook = () => {
 
   return (
     <div className='p-4'>
-      <BackButton/>
+      <BackButton />
       <h1 className='text-3x1 my-4'>
         Show Book
       </h1>
       {loading ? (
-        <Spinner/>
+        <Spinner />
       ) : (
         <div className='flex flex-col border-2 border-sky-400 rounded-x1 w-fit p-4'>
           <div className='my-4'>

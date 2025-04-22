@@ -66,3 +66,9 @@ npm i axios react-icons
 # Go back to backend
 cd ..
 cd backend
+
+# Using notistack alerts
+# inside frontend folder
+npm i notistack
+
+# inside main.jsx import { SnackbarProvider } from 'notistack';
